@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"testing"
 )
+
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
 		name    string
@@ -55,4 +56,3 @@ func TestGetAPIKey(t *testing.T) {
 		})
 	}
 }
-
